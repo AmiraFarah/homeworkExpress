@@ -6,7 +6,7 @@ app.get('/greeting',(req,res)=>{
 })
 // app.send('3000',(req,res {
 //     console.log('we are in sever.js')
-// })
+// })//
 // 
 app.get('/greeting/:name',(req,res)=>{
      (res.send(`Whatsup  ${req.params.name} so great to see you`))
